@@ -28,7 +28,7 @@ function gameRules(p1, p2) {
     document.getElementById('gameResult').innerHTML = choice[1] + " Bets " + choice[0]
   }
 
-  else if (choice[p1] === choice[1] && choice[p2] === choice[2] || choice[p1] === choice[2a]) {
+  else if (choice[p1] === choice[1] && choice[p2] === choice[2] || choice[p1] === choice[2]) {
 
   }
 
