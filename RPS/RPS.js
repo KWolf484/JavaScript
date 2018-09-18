@@ -20,16 +20,15 @@ function gameRules(p1, p2) {
   document.getElementById('p2Result').innerHTML = "Player Two: " + choice[p2];
 
   if (choice[p1] === choice[p2]) {
-    document.getElementById('gameResult').innerHTML = "It\'s a Draw! " + "Player One Choose: " + choice[p1] + "Player Two Choose: " + choice[p2]
+    document.getElementById('gameResult').innerHTML = "It\'s a Draw! <br />" + "Player One Chose: " + choice[p1] + "<br />Player Two Chose: " + choice[p2]
   }
 
   else if (choice[p1] === choice[0] && choice[p2] === choice[1] || choice[p2]
     === choice[0] && choice[p1] === choice[1]) {
-    document.getElementById('gameResult').innerHTML = choice[1] + " Bets " + choice[0]
+    document.getElementById('gameResult').innerHTML = choice[1] + " Beats " + choice[0]
   }
 
-  else if (choice[p1] === choice[1] && choice[p2] === choice[2] || choice[p1] === choice[2]) {
-
+  else if (choice[p1] === choice[1] && choice[p2] === choice[2] || choice[p1] === choice[2]) { document.getElementById('gameResult').innerHTML = choice[2] +" Beats " + choice[1] 
   }
 
 
