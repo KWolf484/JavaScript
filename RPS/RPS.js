@@ -11,7 +11,8 @@ const choice = {
 // choice[0] = getElementById
 // random number gen for RPS choice, two players. Poss AI func
 p1 = Math.floor(Math.random()*3) 
-p2 = Math.floor(Math.random()*3)
+// p1 = choice[]
+p2 = Math.floor(Math.random()*3) //basic AI for P2
 // test for draw output
 // p1 = 0
 // p2 = 0
